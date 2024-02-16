@@ -3,6 +3,8 @@ package com.kafatechapi.entity;
 import jakarta.persistence.*;
 import lombok.Data;
 
+import java.util.List;
+
 @Entity
 @Table(name = "Students")
 @Data
@@ -19,5 +21,5 @@ public class Student {
     @Column(name = "last_name")
     private String lastName;
 
-    // Getter ve setter metotları
+
 }

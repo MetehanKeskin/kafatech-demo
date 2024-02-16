@@ -6,8 +6,9 @@ import lombok.Data;
 
 @Entity
 @Table(name = "Grades")
+@Data
 public class Grade {
-    
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "grade_id")

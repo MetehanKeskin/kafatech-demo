@@ -3,10 +3,12 @@ package com.kafatechapi.entity;
 
 
 import jakarta.persistence.*;
+import lombok.Data;
 
 
 @Entity
 @Table(name = "Teachers")
+@Data
 public class Teacher {
     
     @Id
